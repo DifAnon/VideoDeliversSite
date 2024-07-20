@@ -1,0 +1,50 @@
+.about{
+	width: 300px;
+}
+
+.upload{
+    display: grid;
+  	place-items: center;
+}
+
+.image img{
+	height: 100%;
+}
+
+.uploadPage{
+	font-family: trebuchet ms,sans-serif;
+	font-size: calc(5px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+}
+
+.banner{
+	margin: auto;
+  	width: 50%;
+	width: 500px;
+	height: 451;
+}
+
+.banner img{
+	width: 80%;
+	height: 80%;
+}
+
+body{
+	background: #EEE;
+}
+
+b{
+	color: #333;
+}
+
+html{
+	font-family: trebuchet ms,sans-serif;
+}
+
+.videoURL{
+	color: #FF6600;
+}
+
+.videoURL: hover{
+	color: #a74300;
+}
+

@@ -1,0 +1,57 @@
+.about{
+	width: 300px;
+}
+
+.upload{
+    display: grid;
+  	place-items: center;
+}
+
+.image img{
+	height: 100%;
+}
+
+.uploadPage{
+	font-family: trebuchet ms,sans-serif;
+	font-size: 2vw;
+}
+
+@media screen and (max-width: 992px) {
+	.uploadPage{
+		font-size: 4vw;
+	}
+}
+
+.banner{
+	margin: auto;
+  	width: 50%;
+	width: 500px;
+	height: 451;
+}
+
+.banner img{
+	width: 80%;
+	height: 80%;
+}
+
+body{
+	background: #FFFFEE;
+	color: #800000;
+}
+
+b{
+	color: #117743;
+}
+
+html{
+	font-family: trebuchet ms,sans-serif;
+}
+
+.videoURL{
+	color: #CC1105;
+}
+
+.videoURL:hover {
+	color: red;
+}
+

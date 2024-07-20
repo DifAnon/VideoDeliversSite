@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/style2.css" type="text/css" rel="stylesheet">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<title>VideoDelivers</title>
+</head>
+<body>
+	<div class="about">
+		<p><b class="videoURL">VideoDelivers - выгрузка видео в один клик</b></p>
+
+		<p>Условия выгрузки видео:</p>
+
+		<ul>
+			<li>Размер файла не более <b>20 Mb</b>;</li>
+			<li>Формат файла <b>MP4</b>;</li>
+		</ul>
+		<p>То, что загружает пользователь, ни в коем случае не должно нарушать законодательство ни одной из стран планеты Земля (в том числе воображаемых). К нарушителю будут применены меры.</p>
+	</div><br/>
+	<div class="upload">
+		<form action="upload.php" enctype="multipart/form-data" method="post">
+			<input type="file" name="videoF" accept="video/mp4" required> <br/>
+			<p><center><input type="submit" name="uploadButton"></center></p>
+		</form>
+	</div>
+</body>
+</html>
